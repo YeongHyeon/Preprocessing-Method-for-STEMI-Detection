@@ -1,7 +1,5 @@
 #Performance Enhancement Method in CNN-based STEMI Detection in 12-lead Electrocardiogram
 
------
-
 ## Requirements
 * Python 3.5.2  
 * Tensorflow 1.4.0  
