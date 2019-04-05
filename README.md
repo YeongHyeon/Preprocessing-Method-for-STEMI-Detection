@@ -1,6 +1,15 @@
 Performance Enhancement Method in CNN-based STEMI Detection in 12-lead Electrocardiogram
 =====
 
+## STEMI: ST-elevation myocardial infarction
+The complete occlusion of the coronary artery is called STEMI and it is characterized by a sudden shut-down of blood flow caused by thrombus or embolism  
+
+<div align="center">
+  <img src="./figures/normal.png" width="500">  
+  <img src="./figures/stemi.png"  width="500">  
+  <p>The ECG of normal and STEMI</p>
+</div>
+
 ## Requirements
 * Python 3.5.2  
 * Tensorflow 1.4.0  
@@ -34,4 +43,11 @@ $ python preprocessing.py --help // for confirming the option
 $ cd CNN
 $ python run_resnet.py
 ```
-Using `run_vggnet.py` instead of `run_resnet.py` is available for training VGGNet.
+Using `run_vggnet.py` instead of `run_resnet.py` is available for training VGGNet.  
+
+<div align="center">
+  <img src="./figures/vggnet16.png" width="800">  
+  <p>1D-VGGNet-16</p>  
+  <img src="./figures/resnet34.png"  width="800">  
+  <p>1D-ResNet-34</p>
+</div>
