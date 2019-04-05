@@ -2,7 +2,7 @@ Performance Enhancement Method in CNN-based STEMI Detection in 12-lead Electroca
 =====
 
 ## STEMI: ST-elevation myocardial infarction
-The complete occlusion of the coronary artery is called STEMI and it is characterized by a sudden shut-down of blood flow caused by thrombus or embolism  
+The complete occlusion of the coronary artery is called STEMI and it is characterized by a sudden shut-down of blood flow caused by thrombus or embolism. In the ECG of STEMI, the ST-segment is more elevated than the normal.
 
 <div align="center">
   <img src="./figures/normal.png" width="500">  
@@ -21,9 +21,9 @@ The complete occlusion of the coronary artery is called STEMI and it is characte
 
 ## Usage
 ### Preparing the dataset
-First, Organize the dataset and keep as below.  
+First, Organize the dataset and keep as below. Keep the channel (or lead) information in axis 0, and time information in axis 1. For example, 12 lead data with 5500-time length (500Hz x 11 seconds) is stored as `(12, 5500)` form.  
 ```
-Dataset
+Raw_ECG
 ├── Normal
 │   ├── data_1
 │   ├── data_2
