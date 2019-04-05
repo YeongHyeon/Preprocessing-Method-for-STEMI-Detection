@@ -68,19 +68,15 @@ def validation(sess, neuralnet, saver, dataset):
     if(os.path.exists(PACK_PATH+"/Checkpoint/model_checker.index")):
         saver.restore(sess, PACK_PATH+"/Checkpoint/model_checker")
 
-    count = 0
     confmat = np.zeros((dataset.num_class, dataset.num_class))
     while(True):
         X_te, Y_te, path_te = dataset.next_batch(batch_size=1)
         if(X_te is None): break
         preds, scores = sess.run([neuralnet.pred, neuralnet.score], feed_dict={neuralnet.inputs:X_te, neuralnet.labels:Y_te, neuralnet.dropout_prob:1})
         idx_y, idx_p = np.argmax(Y_te, axis=1)[0], preds[0]
-        count += 1
 
         for cidx, clsname in enumerate(dataset.class_names):
             if(clsname in path_te): confmat[cidx][idx_p] += 1
 
-    print(count)
     print("Confusion Matrix")
     print(confmat)
-    print(np.sum(confmat))

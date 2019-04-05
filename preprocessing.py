@@ -234,7 +234,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--rawpath', type=str, default="SNUBH_ECG", help='Path of rawdata.')
+    parser.add_argument('--rawpath', type=str, default="Raw_ECG", help='Path of rawdata.')
     parser.add_argument('--set', type=str, default="BP", help='Kind of dataset.')
     parser.add_argument('--fs', type=int, default=500, help='Sampling rate of raw data.')
     parser.add_argument('--nfft', type=int, default=4096, help='FFT point for Fourier transform.')
