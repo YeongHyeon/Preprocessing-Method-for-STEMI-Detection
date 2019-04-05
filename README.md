@@ -7,7 +7,7 @@ The complete occlusion of the coronary artery is called STEMI and it is characte
 <div align="center">
   <img src="./figures/normal.png" width="500">  
   <img src="./figures/stemi.png"  width="500">  
-  <p>The ECG of normal and STEMI</p>
+  <p>The ECG of normal (upper) and STEMI (lower)</p>
 </div>
 
 ## Requirements
