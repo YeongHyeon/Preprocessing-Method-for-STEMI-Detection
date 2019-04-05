@@ -21,7 +21,7 @@ The complete occlusion of the coronary artery is called STEMI and it is characte
 
 ## Usage
 ### Preparing the dataset
-First, Organize the dataset and keep as below. Keep the channel (or lead) information in axis 0, and time information in axis 1. For example, 12 lead data with 5500-time length (500Hz x 11 seconds) is stored as `(12, 5500)` form.  
+First, Organize the dataset and keep as below. Keep the channel (or lead) information in axis 0, and time information in axis 1. For example, 12 lead data with 5500-time length (500Hz x 11 seconds) should be saved as `(12, 5500)` form.  
 ```
 Raw_ECG
 ├── Normal
