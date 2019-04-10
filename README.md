@@ -1,4 +1,4 @@
-Performance Enhancement Method in CNN-based STEMI Detection in 12-lead Electrocardiogram
+Performance Enhancement Method in CNN-based STEMI Detection from 12-lead Electrocardiogram
 =====
 
 ## STEMI: ST-elevation myocardial infarction
