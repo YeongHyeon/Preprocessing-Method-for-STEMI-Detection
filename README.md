@@ -53,3 +53,6 @@ Using `run_vggnet.py` instead of `run_resnet.py` is available for training VGGNe
   <img src="./figures/resnet34.png"  width="800">  
   <p>1D-ResNet-34</p>
 </div>
+
+Available since Mar.31.2019
+Developed by <a href="https://github.com/YeongHyeon"><strong>YeongHyeon Park</strong><a>
