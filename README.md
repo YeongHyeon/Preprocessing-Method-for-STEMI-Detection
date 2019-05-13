@@ -54,5 +54,7 @@ Using `run_vggnet.py` instead of `run_resnet.py` is available for training VGGNe
   <p>1D-ResNet-34</p>
 </div>
 
-Available since Mar.31.2019  
-Developed by <a href="https://github.com/YeongHyeon"><strong>YeongHyeon Park</strong><a>
+### Pre-Trained CNN
+If you want to use pre-trained model it is available at <a href="https://drive.google.com/drive/folders/1qexMFed1SIO2n1R5EE2QoxCaEA1iiDbf?usp=sharing">Google Drive</a>. Saved parameters are provided for 1D-VGGNet-16 and 1D-ResNet-34 respectively.
+
+Available since Mar.31.2019
