@@ -1,7 +1,7 @@
-Performance Enhancement Method in CNN-based STEMI Detection from 12-lead Electrocardiogram
+Preprocessing Method for Performance Enhancement in CNN-based STEMI Detection from 12-lead ECG
 =====
 
-This repository provides the source code of the paper "Performance Enhancement Method in CNN-based STEMI Detection from 12-lead Electrocardiogram".
+This repository provides the source code of the paper "Preprocessing Method for Performance Enhancement in CNN-based STEMI Detection from 12-lead ECG".
 
 ## STEMI: ST-elevation myocardial infarction
 The complete occlusion of the coronary artery is called STEMI and it is characterized by a sudden shut-down of blood flow caused by thrombus or embolism. In the ECG of STEMI, the ST-segment is more elevated than the normal.
