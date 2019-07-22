@@ -40,6 +40,15 @@ $ python preprocessing.py
 $ python preprocessing.py --help // for confirming the option
 ```
 
+In the process of executing the above source code, pulse segmentation is performed by voting and choosing the location of the QRS complex as shown below.  
+
+<div align="center">
+  <img src="./figures/qrs_lead_i.png" width="500">  
+  <img src="./figures/qrs_lead_avr.png"  width="500">  
+  <img src="./figures/qrs_voted.png"  width="500">  
+  <p>The top of the figure shows location voting result for finding the QRS complex. Lower two figure shows most voted time location as QRS complex at lead-I and lead-aVR respectively.</p>
+</div>
+
 ### Training and Test
 ```
 $ cd CNN
