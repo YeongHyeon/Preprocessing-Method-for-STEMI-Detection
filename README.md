@@ -67,3 +67,16 @@ Using `run_vggnet.py` instead of `run_resnet.py` is available for training VGGNe
 If you want to use pre-trained model it is available at <a href="https://drive.google.com/drive/folders/1qexMFed1SIO2n1R5EE2QoxCaEA1iiDbf?usp=sharing">Google Drive</a>. Saved parameters are provided for 1D-VGGNet-16 and 1D-ResNet-34 respectively.
 
 Available since Mar.31.2019
+
+### BibTeX
+```
+@Article{8771175,
+  author={Park, YeongHyeon and Yun, Il Dong and Kang, Si-Hyuck},
+  journal={IEEE Access},
+  title={Preprocessing Method for Performance Enhancement in CNN-Based STEMI Detection From 12-Lead ECG},
+  year={2019},
+  volume={7},
+  pages={99964-99977},
+  ISSN={2169-3536},
+}
+```
